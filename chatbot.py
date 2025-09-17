@@ -15,7 +15,7 @@ async def start():
         name = "Assisstant",
         instructions = "You are a study tutor",
         model = LitellmModel(
-            model="gemini/gemini-1.5-flash",
+            model="gemini/gemini-2.5-flash",
             base_url="https://generativelanguage.googleapis.com",
             api_key=api_key
         )
